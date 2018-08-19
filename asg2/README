@@ -1,0 +1,16 @@
+tmchavez
+
+known bugs:
+"cd  " command does not retur to root, but "cd .." goes
+to parent
+
+warnings during compile are only due to unused parameters in overloaded
+functions in plain_file and directoy
+
+ls call only prints for current directory
+
+memory leak due to rm not removing all things in directory when
+the directory is removed
+
+lsr and rmr not fully implemented, just implemted as
+ls and rm respectively

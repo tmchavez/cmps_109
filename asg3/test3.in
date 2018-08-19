@@ -1,0 +1,3 @@
+also ignore blank lines
+this file contains nonexistent keys
+all output should be error messages
